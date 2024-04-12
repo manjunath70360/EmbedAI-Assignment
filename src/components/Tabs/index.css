@@ -1,0 +1,130 @@
+.tabs-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    padding: 0px;
+    width: 100%;
+    overflow-x: auto; 
+    white-space: nowrap;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+}
+.tab{
+    margin-right: 10px;
+}
+.active-tab{
+    min-width: 82px;
+    height: 44px;
+    border-radius: 9px;
+    border: none;
+    outline: none;
+    background-color: #202024;
+    font-family: roboto;
+    font-size: 14px;
+    color: white;
+}
+.inactive-tab{
+    min-width: 82px;
+    height: 44px;
+    border-radius: 9px;
+    border: none;
+    outline: none;
+    background-color: #e4e4e7;
+    font-family: roboto;
+    font-size: 14px;
+    color: #585962;
+}
+
+/* card css */
+
+.tab-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    padding: 0px;
+    width: 100%;
+    overflow-x: auto; 
+    white-space: nowrap;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+}
+.tab-card{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 350px;
+    height: 120px;
+    padding: 16px;
+    background-color: #ececee;
+    margin-right: 12px;
+    border-radius: 12px;
+}
+.tab-img{
+    width: 95px;
+    height: 114px;
+    border-radius: 11px;
+}
+.text-tab{
+    width: 178px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 8px;
+    
+   
+}
+.text-con-tab{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+.tab-title{
+    font-family: roboto;
+    font-size: 14px;
+    margin: 0px;
+    font-weight: 500;
+    color: rgb(62, 62, 62);
+}
+.tab-link{
+    font-family: roboto;
+    font-size: 12px;
+    margin: 0px;
+    color: gray;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.tab-desc{
+    font-family: roboto;
+    font-size: 12px;
+    margin: 0px;
+   columns: rgb(92, 92, 92);
+    font-weight: 400;
+    
+}
+.tab-count{
+    display: flex;
+    align-items: center;
+    font-family: roboto;
+    margin: 4px;
+    font-size: 13px;
+    color: gray;
+    margin-right: 6px;
+}
+.msg-icon{
+    margin-right: 3px;
+    font-size: 18px;
+    color: gray;
+}
+.count-like{
+    display: flex;
+    align-items: center;
+
+}

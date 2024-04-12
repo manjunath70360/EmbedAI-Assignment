@@ -1,0 +1,278 @@
+/* Write your CSS here */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.app-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+ height: 100vh;
+
+}
+button{
+    cursor: pointer;
+}
+.icon{
+    cursor: pointer;
+}
+.content-container{
+    background-color: transparent;
+    width: 93%;
+    padding-left: 45px;
+    display: flex;
+    flex-direction: column;
+}
+.content-container-ham-active{
+    background-color: transparent;
+    width: 72%;
+    display: flex;
+    margin-left: 28%;
+    flex-direction: column;
+}
+
+.side-bar-container{
+    padding-left: 12px;
+    position: fixed;
+    display: flex;
+    width: 24%;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 96vh;
+    padding-bottom: 20px;
+    border-right: 1px solid rgb(237, 236, 236);
+    padding-right: 12px;
+}
+.ham-icon{
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.side-ham-container{
+    margin: 5px;
+    position: fixed;
+    width: 5%;
+}
+.sp{
+    padding: 0px;
+    margin: 0px;
+}
+@media (max-width:560px){
+    .side-bar-container{
+        width: 160px;
+    }
+    .content-container-ham-active{
+       
+        margin-left: 30%;
+       
+    }
+  
+}
+.title-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name{
+font-family: roboto;
+font-weight: 500;
+font-size: 16px;
+}
+.create{
+   width: 120px;
+   height: 40px;
+   padding-left: 14px;
+    border-radius: 26px;
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    border: 1px solid lightgray;
+    font-family: roboto;
+    margin-bottom: 12px;
+}
+.plus-icon{
+    font-size: 23px;
+    margin-right: 4px;
+}
+.active-discover{
+    width: 100%;
+    height: 40px;
+    padding-left: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+font-family: roboto;
+font-weight: 400;
+background-color: #e4e4e7;
+border: none;
+font-size: 16px;
+border-radius: 6px;
+}
+.nonactive-discover{
+    width: 100%;
+    height: 40px;
+    padding-left: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+font-family: roboto;
+font-weight: 400;
+background-color: transparent;
+border: none;
+font-size: 16px;
+border-radius: 6px;
+}
+
+.no-img{
+    width: 30px;
+    height: 29px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 15px;
+}
+.create-btn{
+    width: 100%;
+    height: 40px;
+    padding-left: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+font-family: roboto;
+font-weight: 400;
+background-color: #e4e4e7;
+border: none;
+font-size: 16px;
+border-radius: 6px;
+}
+
+.disc-icon{
+    font-size: 28px;
+    margin-right: 4px;
+}
+.chat{
+    font-family: roboto;
+    font-size: 14px;
+}
+.today{
+    font-family: roboto;
+    font-size: 12px;
+    font-weight: 400;
+    color: gray;
+}
+.character-list-containers{
+    margin: 0px;
+    padding: 0px;
+    padding-left: 6px;
+  width: 100%;
+}
+.active-character-name{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    margin: 0px;
+    height: 40px;
+    flex-direction: row;
+    background-color: #e4e4e7;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    margin-bottom: 4px;
+}
+.nonactive-character-name{
+    margin: 0px;
+    padding: 0px;
+    padding-left: 6px;
+   width: 100%;
+   height: 40px;
+   margin-bottom: 4px;
+   cursor: pointer;
+   background-color: transparent;
+   border: none;
+   outline: none;
+   display: flex;
+   align-items: center;
+}
+
+
+
+.char-name{
+    font-family: roboto;
+    font-size: 11px;
+    font-weight: 500;
+    text-align: left;
+    margin: 0px;
+}
+
+.char-img{
+    width: 30px;
+    border-radius: 15px;
+    margin-right: 6px;
+    height: 30px;
+}
+.try-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 35px;
+    border-radius: 18px;
+    border: 1px solid rgb(224, 219, 219);
+    margin-bottom: 12px;
+    margin-top: 8px;
+  
+}
+.character-arrow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.character-name{
+    display: flex;
+    align-items: center;
+}
+
+.welcome{
+    font-family: roboto;
+    font-size: 12px;
+    font-weight: 500;
+    color: gray;
+    margin-top: 1px;
+    margin-bottom: 2px;
+}
+.search-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+    justify-content: space-between;
+}
+.search-container{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+   height: 35px;
+   border-radius: 18px;
+   padding-left: 10px;
+ background-color: rgb(234, 234, 234);
+}
+.user{
+    font-family: roboto;
+font-weight: 500;
+font-size: 16px;
+margin: 0px;
+}
+.search-bar{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    margin-left: 2px;
+    font-family: roboto;
+
+}
+.side-header{
+    font-family: roboto;
+    font-size: 13px;
+    margin: 0px;
+}

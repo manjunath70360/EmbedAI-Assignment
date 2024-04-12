@@ -1,0 +1,80 @@
+.foryou-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    padding: 0px;
+    width: 100%;
+    overflow-x: auto; 
+    white-space: nowrap;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 350px;
+    height: 120px;
+    padding: 20px;
+    background-color: #ececee;
+    margin-right: 12px;
+    border-radius: 12px;
+}
+.card-img{
+    width: 120px;
+    height: 120px;
+    border-radius: 11px;
+}
+.details{
+    width: 178px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 6px;
+   
+}
+.text-con-foryou{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+.profile-name{
+    font-family: roboto;
+    font-size: 14px;
+    margin: 4px;
+    color: rgb(62, 62, 62);
+}
+.profile-link{
+    font-family: roboto;
+    font-size: 12px;
+    margin: 4px;
+    color: gray;
+}
+.profile-description{
+    font-family: roboto;
+    font-size: 12px;
+    margin: 4px;
+    margin-top: 9px;
+    font-weight: 400;
+    
+}
+.count{
+    display: flex;
+    align-items: center;
+    font-family: roboto;
+    margin: 4px;
+    font-size: 13px;
+    color: gray;
+}
+.count-icon{
+    margin-right: 5px;
+    font-size: 18px;
+    color: gray;
+}
